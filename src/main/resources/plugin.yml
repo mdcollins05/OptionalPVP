@@ -1,0 +1,14 @@
+author: MDCollins
+database: false
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: com.blockmovers.plugins.optionalpvp.OptionalPVP
+name: OptionalPVP
+startup: postworld
+url: http://blockmovers.com/
+version: '${version}'
+commands:
+  pvp:
+    usage: /<command> (action)
+permissions:
+  opvp.toggle:
+    default: false
